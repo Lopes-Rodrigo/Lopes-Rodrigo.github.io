@@ -1,12 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 nav {
     height: 50px;
     background-color: #484848;
     color: #c8c8c8;
-
     display: flex;
     align-items: center;
     justify-content: end;
     list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav li{
@@ -15,9 +24,22 @@ nav li{
  
 a{
     text-decoration: none;
+    color: orange;
 }
 
 a:hover{
-    text-decoration: none;
     color :crimson;
+}
+
+section{
+    min-height: 480px;
+    background-color: #484848;
+    color:aqua;
+    padding:10px;
+    border: 2px dotted #8961b5;
+}
+
+section:hover{
+    background-color: #181818;
+    color:rgb(255,188,53);
 }
