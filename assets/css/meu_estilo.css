@@ -45,7 +45,7 @@ section{
 
 .comando-git {
     padding: 5px;
-    font-size: 2rem;
+    font-size: 1.25rem;
     border: 3px solid #9920a3;
     background-color: #c8c8c8;
     color: #484848;
@@ -57,4 +57,26 @@ p{
 
 .conteudo{
     margin-top: 50px;
+}
+
+.comando-sobre{
+    padding: 100px;
+    font-size: 1.25rem;
+    border: 3px solid #131212;
+    background:linear-gradient(#23c6db, #1b8699, #01a1fd);
+    color:linear-gradient(#23c6db, #1b8699, #01a1fd);
+    width: 25%;
+    display:block ;
+
+}
+img{
+    width: 25%;
+    display:block ;
+    
+}
+
+.teste{
+display: grid;
+width: 100%;
+
 }
