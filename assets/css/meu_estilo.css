@@ -70,8 +70,16 @@ p{
 
 }
 img{
-    width: 25%;
     display:block ;
+    width: 400px;
+    height: 300px;
+    position:relative;
+    border: 3px solid #131212;
+    box-align: right;
+}
+
+img, p {
+    display: inline-block;
     
 }
 
