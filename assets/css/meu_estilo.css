@@ -7,7 +7,7 @@
 
 nav {
     height: 50px;
-    background-color: #484848;
+    background-color: #2a395a;
     color: #c8c8c8;
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@ nav li{
  
 a{
     text-decoration: none;
-    color: orange;
+    color: rgb(27, 157, 167);
 }
 
 a:hover{
@@ -34,7 +34,7 @@ a:hover{
 
 section{
     min-height: 480px;
-    background-color: #484848;
+    background-color: #148fc9;
     color:aqua;
     padding:10px;
     border: 2px dotted #8961b5;
@@ -46,7 +46,7 @@ section{
 .comando-git {
     padding: 5px;
     font-size: 1.25rem;
-    border: 3px solid #9920a3;
+    border: 3px solid #131213;
     background-color: #c8c8c8;
     color: #484848;
 }
@@ -57,6 +57,24 @@ p{
 
 .conteudo{
     margin-top: 50px;
+}
+
+#projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto{
+    width: 300px;
+    height: 300px;
+    border: #cc3b3b solid 5px;
+    margin: 10px;
+}
+
+.projeto>img{
+    width: 100%;
+    border: none;
 }
 
 .comando-sobre{
@@ -71,20 +89,17 @@ p{
 }
 img{
     display:block ;
-    width: 400px;
-    height: 300px;
-    position:relative;
     border: 3px solid #131212;
-    box-align: right;
-}
-
-img, p {
-    display: inline-block;
-    
 }
 
 .teste{
 display: grid;
 width: 100%;
+}
 
+.labels span{
+    color: white;
+    background-color:linear-gradient(#23c6db, #1b8699, #01a1fd); 
+    border-radius: 100px;
+    padding: 2px 5px;
 }
