@@ -37,11 +37,8 @@ section{
     background-color: #148fc9;
     color:aqua;
     padding:10px;
-    border: 2px dotted #8961b5;
+    border: 2px dotted black;
 }
-
-
-
 
 .comando-git {
     padding: 5px;
@@ -52,7 +49,7 @@ section{
 }
 
 p{
-    padding: 5px;
+    padding: 10px;
 }
 
 .conteudo{
@@ -63,12 +60,13 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .projeto{
-    width: 300px;
-    height: 300px;
-    border: #cc3b3b solid 5px;
+    width: 400px;
+    height: 500px;
+    border: black solid 5px;
     margin: 10px;
 }
 
@@ -90,6 +88,7 @@ p{
 img{
     display:block ;
     border: 3px solid #131212;
+    height: 200px;
 }
 
 .teste{
@@ -102,4 +101,8 @@ width: 100%;
     background-color:linear-gradient(#23c6db, #1b8699, #01a1fd); 
     border-radius: 100px;
     padding: 2px 5px;
+}
+
+.center{
+    text-align: center;
 }
