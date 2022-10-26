@@ -25,11 +25,11 @@ nav li{
  
 a{
     text-decoration: none;
-    color: rgb(27, 157, 167);
+    color: black;
 }
 
 a:hover{
-    color :crimson;
+    color :white;
 }
 
 section{
@@ -68,11 +68,15 @@ p{
     height: 500px;
     border: black solid 5px;
     margin: 10px;
+    text-align: justify;
+    padding: 10px;
+
 }
 
 .projeto>img{
     width: 100%;
     border: none;
+    
 }
 
 .comando-sobre{
@@ -87,7 +91,7 @@ p{
 }
 img{
     display:block ;
-    border: 3px solid #131212;
+    
     height: 200px;
 }
 
@@ -103,6 +107,22 @@ width: 100%;
     padding: 2px 5px;
 }
 
-.center{
-    text-align: center;
+#redes_sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.redes{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    text-align: justify;
+    padding: 10px;
+}
+.logos{
+    width: 200px;
+}
+
+
